@@ -1,0 +1,78 @@
+/* calm_seafoam.css */
+
+/* General Body Styling */
+html, body {
+    background-color: #e0f7fa; /* Light seafoam color */
+    color: #00796b; /* Dark teal color */
+    font-family: 'Roboto', sans-serif; /* Default font */
+}
+
+/* Header Styling */
+h1, h2, h3, h4 {
+    color: #004d40; /* Deep teal for headings */
+}
+
+/* Styling for Tabs */
+.gradio-tab {
+    background-color: #009688; /* Teal for tab background */
+    color: white; /* White text */
+}
+
+.gradio-tab:hover {
+    background-color: #00796b; /* Darker teal on hover */
+}
+
+/* Button Styling */
+.gr-button, .gr-button:focus {
+    background-color: #3c6487; /* Button background */
+    color: white;
+    border-radius: 8px;
+    padding: 10px 15px; /* Adjusted padding */
+}
+
+.gr-button:hover {
+    background: linear-gradient(to right, #a0c4e1, #3c6487); /* Gradient on hover */
+}
+
+/* Input Styling */
+textarea, input {
+    background: white; /* Input background */
+    color: black; /* Text color */
+    border: 2px solid #004d40; /* Dark teal border for inputs */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Markdown Styling */
+.markdown {
+    background-color: #b2dfdb; /* Light background for markdown */
+    padding: 15px; /* Padding for Markdown sections */
+    border-radius: 10px; /* Round corners */
+    border: 1px solid #00796b; /* Border to distinguish */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* DataFrame Container Styling */
+.df-container {
+    background: #ffffff; /* White background for dataframes */
+    color: black; /* Black text */
+    border: 2px solid #3c6487; /* Matching border color for dataframes */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Suggestions Table */
+.markdown {
+    padding: 15px; /* Padding for suggestions */
+    border: 1px solid #00796b; /* Border for suggestions */
+}
+
+/* Dark Mode Styles */
+body.dark {
+    background-color: #004d40; /* Dark teal background */
+    color: #e0f7fa; /* Light text */
+}
+
+body.dark h1, body.dark h2, body.dark h3, body.dark h4 {
+    color: #a7ffeb; /* Light color for headings in dark mode */
+}
