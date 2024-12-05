@@ -1,5 +1,5 @@
 ---
-title: Testing 2
+title: Wellbeing Companion 
 emoji: 💻
 colorFrom: yellow
 colorTo: indigo
