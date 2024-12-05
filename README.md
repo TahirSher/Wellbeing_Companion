@@ -1,2 +1,12 @@
-# Wellbeing_Companion
-A user-friendly app to support Hawaii residents in managing their mental, physical, and emotional health through mood analysis, expert advice, and easy navigation to nearby specialists.
+---
+title: Testing 2
+emoji: 💻
+colorFrom: yellow
+colorTo: indigo
+sdk: gradio
+sdk_version: 5.7.1
+app_file: app.py
+pinned: false
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
